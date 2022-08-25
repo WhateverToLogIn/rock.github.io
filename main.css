@@ -1,7 +1,9 @@
-/* .main-content{
+.main-content{
     border: 1px solid black;
     width: 200px;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
@@ -10,7 +12,20 @@
       height: 100vh;
       border: 5px solid black;
     }
-  } */
+  }
+
+.main-container{
+    display: flex;
+    width: 270px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.main-text-container{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 .main-text-container .main-text{
     text-align: center;
@@ -19,10 +34,16 @@
 .main-element-container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .main-element-container > button{
     margin: 5px;
+    font-size: 3em;
+}
+
+.win-lose-container{
+    width: 100%;
 }
 
 .win-lose{
