@@ -1,6 +1,5 @@
 .main-content{
-    border: 1px solid black;
-    width: 200px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
